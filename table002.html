@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #2b8a3e
+      #ced4da
+      #868e96 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1;
+        color: #343a40;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .table {
+        width: 900px;
+        margin-top: 100px;
+        text-align: left;
+        /* border: 1px solid #000; */
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        /* border: 1px solid #000; */
+        padding: 16px;
+      }
+      td {
+        font-size: 22px;
+      }
+      th {
+        font-size: 22px;
+      }
+      thead th {
+        /* padding: 20px; */
+        background-color: #2b8a3e;
+        color: #fff;
+      }
+      .first {
+        background-color: #adb5bd;
+      }
+      .second {
+        background-color: #ced4da;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-table">
+      <table class="table">
+        <thead>
+          <th>Name</th>
+          <th>Tall</th>
+          <th>wight</th>
+          <th>percent</th>
+          <th>Ranking</th>
+        </thead>
+        <tbody>
+          <tr class="first">
+            <th>Omid</th>
+            <td>177cm</td>
+            <td>67kg</td>
+            <td>98%</td>
+            <td>1</td>
+          </tr>
+          <tr class="second">
+            <th>Jafar</th>
+            <td>176cm</td>
+            <td>65kg</td>
+            <td>94%</td>
+            <td>2</td>
+          </tr>
+          <tr class="first">
+            <th>Jawad</th>
+            <td>188cm</td>
+            <td>78kg</td>
+            <td>91%</td>
+            <td>3</td>
+          </tr>
+
+          <tr class="second">
+            <th>Mujtaba</th>
+            <td>196cm</td>
+            <td>88kg</td>
+            <td>90%</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

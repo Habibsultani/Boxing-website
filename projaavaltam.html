@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxing card</title>
+    <style>
+      /* #2b8a3e
+      #ced4da
+      #868e96 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1;
+        color: #343a40;
+        font-family: sans-serif;
+      }
+      .maincard {
+        width: 800px;
+        margin: 50px auto;
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+        padding: 32px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 32px;
+        border-radius: 18px;
+        /* border-top: 4px solid #2b8a3e; */
+      }
+      .number,
+      .text {
+        font-size: 40px;
+        font-weight: 500;
+        /* color: #2b8a3e; */
+      }
+      .number {
+        color: #ced4da;
+      }
+
+      .btn {
+        height: 24px;
+        width: 24px;
+        stroke: #2b8a3e;
+      }
+      .hiden-box {
+        grid-column: 2;
+        display: none;
+      }
+      .hiden-box p {
+        font-size: 24px;
+        margin-bottom: 32px;
+        line-height: 1.3;
+      }
+      .hiden-box ul {
+        font-size: 18px;
+        margin-left: 20px;
+        color: #868e96;
+
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .open {
+        display: block;
+        /* color: #2b8a3e; */
+      }
+      .open-text {
+        color: #2b8a3e;
+      }
+      .open-card {
+        border-top: 4px solid #2b8a3e;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-card">
+      <div class="maincard">
+        <p class="number">01</p>
+        <p class="text">What makes boxing beautiful?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+        <div class="hiden-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad
+            culpa suscipit excepturi dolorum tempora aliquam repudiandae quasi
+            expedita? you can find more like this.
+          </p>
+          <ul>
+            <li>boximg is so much more beatiful</li>
+            <li>you can find this sport in all around the world</li>
+            <li>the most powerful atlhet are in bharchi.</li>
+            <li>In Afghanistan we have alot af boxer.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="maincard open-card">
+        <p class="number open-text">02</p>
+        <p class="text open-text">What makes boxing beautiful?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+        <div class="hiden-box open">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad
+            culpa suscipit excepturi dolorum tempora aliquam repudiandae quasi
+            expedita? you can find more like this.
+          </p>
+          <ul>
+            <li>boximg is so much more beatiful</li>
+            <li>you can find this sport in all around the world</li>
+            <li>the most powerful atlhet are in bharchi.</li>
+            <li>In Afghanistan we have alot af boxer.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="maincard">
+        <p class="number">03</p>
+        <p class="text">What makes boxing beautiful?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+        <div class="hiden-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad
+            culpa suscipit excepturi dolorum tempora aliquam repudiandae quasi
+            expedita? you can find more like this.
+          </p>
+          <ul>
+            <li>boximg is so much more beatiful</li>
+            <li>you can find this sport in all around the world</li>
+            <li>the most powerful atlhet are in bharchi.</li>
+            <li>In Afghanistan we have alot af boxer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

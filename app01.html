@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Rubik:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>APP FORM</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        font-size: 20px;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 80px 400px 1fr 300px;
+        grid-template-rows: 80px 1fr;
+      }
+      nav {
+        background-color: #444;
+        color: #fff;
+        grid-row: 1 / -1;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 18px;
+      }
+      menu {
+        background-color: rgb(50, 5, 195);
+        grid-row: 1;
+        grid-column: 2 / 5;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 52px;
+        padding-left: 12px;
+        padding-right: 14px;
+      }
+      /* menu:last-child {
+        margin-left: auto;
+      } */
+      section {
+        background-color: #f7f7f7;
+        text-align: center;
+        padding: 40px;
+        font-size: 32px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        overflow: scroll;
+      }
+      main {
+        background-color: #cdcdcd;
+        grid-row: 2;
+        grid-column: 3 / 4;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 14px;
+      }
+      aside {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 14px;
+        font-weight: 500;
+      }
+      .btn:link,
+      .btn:visited {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 24px;
+        background-color: rgba(45, 38, 124, 0.966);
+        border-radius: 4px;
+      }
+      .btn-space {
+        margin-left: auto;
+      }
+      .btn-space:link,
+      .btn-space:visited {
+        background-color: rgb(182, 1, 1);
+      }
+
+      .email {
+        background-color: rgb(207, 207, 170);
+        height: 100px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>nav</nav>
+    <menu>
+      <a href="#" class="btn">menu</a>
+      <a href="#" class="btn">new</a>
+      <a href="#" class="btn">view</a>
+      <a href="#" class="btn">old</a>
+      <a href="#" class="btn btn-space">Trash</a>
+    </menu>
+    <section>
+      <div class="email">Massage 1</div>
+      <div class="email">Massage 2</div>
+      <div class="email">Massage 3</div>
+      <div class="email">Massage 4</div>
+      <div class="email">Massage 5</div>
+      <div class="email">Massage 6</div>
+      <div class="email">Massage 7</div>
+      <div class="email">Massage 8</div>
+      <div class="email">Massage 9</div>
+      <div class="email">Massage 10</div>
+      <div class="email">Massage 11</div>
+      <div class="email">Massage 12</div>
+      <div class="email">Massage 13</div>
+      <div class="email">Massage 14</div>
+    </section>
+    <main>Email view</main>
+    <aside>Info</aside>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <title>boxer table</title>
+    <style>
+      /* #2b8a3e
+      #ced4da
+      #868e96 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        line-height: 1;
+        color: #343a40;
+        font-family: sans-serif;
+      }
+      table {
+        width: 800px;
+        /* border: 1px solid #343a40; */
+        margin: 100px auto;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        /* border: 1px solid #343a40; */
+        padding: 12px;
+        text-align: left;
+      }
+      tbody td {
+        font-size: 20px;
+      }
+      tbody th {
+        font-size: 20px;
+      }
+      thead th {
+        background-color: #2b8a3e;
+        padding: 16px;
+        color: #fff;
+        font-size: 20px;
+      }
+      tbody tr:nth-child(odd) {
+        background-color: #adb5bd;
+      }
+      tbody tr:nth-child(even) {
+        background-color: #ced4da;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Tall</th>
+          <th>wight</th>
+          <th>percent</th>
+          <th>Ranking</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Omid</th>
+          <td>177cm</td>
+          <td>67Kg</td>
+          <td>98%</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th>Jafar</th>
+          <td>176cm</td>
+          <td>65Kg</td>
+          <td>94%</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th>Jawad</th>
+          <td>188cm</td>
+          <td>78Kg</td>
+          <td>91%</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>Mujtaba</th>
+          <td>196cm</td>
+          <td>88Kg</td>
+          <td>90%</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
